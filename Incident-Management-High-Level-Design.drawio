@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2024-07-13T18:09:19.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="XwKFG-2hZAuFeqr0pMYc" version="24.6.5" type="device">
+  <diagram id="ArlvcIemXgu99rJ6JTao" name="Page-1">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BrXLs6ZZHBPQ6O7GtCMf-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BrXLs6ZZHBPQ6O7GtCMf-1" target="BrXLs6ZZHBPQ6O7GtCMf-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrXLs6ZZHBPQ6O7GtCMf-1" value="Login/Registration screen" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="40" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrXLs6ZZHBPQ6O7GtCMf-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="BrXLs6ZZHBPQ6O7GtCMf-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="200" as="sourcePoint" />
+            <mxPoint x="320" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BrXLs6ZZHBPQ6O7GtCMf-4" value="Register User api (POST)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="110" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BrXLs6ZZHBPQ6O7GtCMf-5" value="User Details Table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="290" y="320" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BrXLs6ZZHBPQ6O7GtCMf-9" value="Authenticate user api (POST)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="450" y="100" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrXLs6ZZHBPQ6O7GtCMf-10" value="Incident management screen" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="555" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrXLs6ZZHBPQ6O7GtCMf-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" target="BrXLs6ZZHBPQ6O7GtCMf-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BrXLs6ZZHBPQ6O7GtCMf-14" value="If User is authenticated" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="310" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BrXLs6ZZHBPQ6O7GtCMf-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="BrXLs6ZZHBPQ6O7GtCMf-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BrXLs6ZZHBPQ6O7GtCMf-17" value="Forget Password api (PUT)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="105" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BrXLs6ZZHBPQ6O7GtCMf-18" value="Incident Detail Table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="250" y="860" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BrXLs6ZZHBPQ6O7GtCMf-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="BrXLs6ZZHBPQ6O7GtCMf-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="650" as="sourcePoint" />
+            <mxPoint x="340" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BrXLs6ZZHBPQ6O7GtCMf-20" value="Create Incident api (Post)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="620" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BrXLs6ZZHBPQ6O7GtCMf-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="BrXLs6ZZHBPQ6O7GtCMf-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="810" as="sourcePoint" />
+            <mxPoint x="440" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BrXLs6ZZHBPQ6O7GtCMf-22" value="Edit incident api (PUT)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="360" y="620" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BrXLs6ZZHBPQ6O7GtCMf-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" target="BrXLs6ZZHBPQ6O7GtCMf-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="850" as="sourcePoint" />
+            <mxPoint x="630" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BrXLs6ZZHBPQ6O7GtCMf-24" value="View Incident (GET)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="450" y="620" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
