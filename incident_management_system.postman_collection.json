@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "a9f293d1-f084-4081-86b9-cd558c8eb0b1",
+		"name": "incident_management_system",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21206229"
+	},
+	"item": [
+		{
+			"name": "LoginService",
+			"item": [
+				{
+					"name": "Register User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userName\": \"Ayush\",\r\n    \"password\": \"ayush1234\",\r\n    \"userEmailId\": \"ayushtamrakarworks@gmail.com\",\r\n    \"phoneNumber\": 9630653760,\r\n    \"pincode\": 484334,\r\n    \"city\": \"Gurgaon\",\r\n    \"country\": \"India\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/incident/v1/login/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"incident",
+								"v1",
+								"login",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update password",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userName\": \"Ayush\",\r\n    \"password\": \"Ayush22799\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/incident/v1/login/reset",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"incident",
+								"v1",
+								"login",
+								"reset"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Authenticate user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userName\": \"Ayush\",\r\n    \"password\": \"Ayush22799\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/incident/v1/login/authorize",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"incident",
+								"v1",
+								"login",
+								"authorize"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "IncidentManagement",
+			"item": [
+				{
+					"name": "Create Incident",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n     \"username\":\"\"\r\n    \"organization\":,\r\n    \"incidentDetails\":,\r\n    \"incidentPriority\":,\r\n    \"incidentStatus\":\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/incident/v1/incident/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"incident",
+								"v1",
+								"incident",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch All Incident",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Edit Incident",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"incidentId\":\"RMG750682024\",\r\n    \"username\":\"Ayush\",\r\n    \"organization\":\"enterprise\",\r\n    \"incidentDetails\":\"abcdefgh\",\r\n    \"incidentPriority\":\"high\",\r\n    \"incidentStatus\":\"open\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/incident/v1/incident/edit",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"incident",
+								"v1",
+								"incident",
+								"edit"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
